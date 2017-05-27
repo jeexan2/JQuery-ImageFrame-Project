@@ -1,0 +1,164 @@
+﻿.block,
+.clear {
+    display: block!important
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box
+}
+.clear,
+.noMargin {
+    margin: 0!important
+}
+.clear,
+.noPadding {
+    padding: 0!important
+}
+.noTransition,
+.noTransition * {
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle
+}
+textarea {
+    overflow: auto;
+    resize: none
+}
+.align-left {
+    text-align: left!important
+}
+.align-center {
+    text-align: center!important
+}
+.align-right {
+    text-align: right!important
+}
+.valign-top {
+    vertical-align: top!important
+}
+.valign-middle {
+    vertical-align: middle!important
+}
+.valign-bottom {
+    vertical-align: bottom!important
+}
+.bold,
+.strong,
+b,
+strong {
+    font-weight: 700!important
+}
+.italic {
+    font-style: italic!important
+}
+.uppercase {
+    text-transform: uppercase!important
+}
+fieldset {
+    border: none
+}
+.noBorder,
+.noBorderTop {
+    border-top: 0!important
+}
+.noBorder,
+.noBorderRight {
+    border-right: 0!important
+}
+.noBorder,
+.noBorderBottom {
+    border-bottom: 0!important
+}
+.noBorder,
+.noBorderLeft {
+    border-left: 0!important
+}
+fieldset label {
+    color: #000;
+    float: none
+}
+legend {
+    color: #555
+}
+.clear {
+    clear: both;
+    height: 0!important;
+    float: none!important
+}
+.float-left {
+    float: left!important
+}
+.float-right {
+    float: right!important
+}
+.float-none {
+    float: none!important
+}
+.noDisplay {
+    display: none!important
+}
+.noBG {
+    background: 0 0!important
+}
+.noMarginTop {
+    margin-top: 0!important
+}
+.noMarginRight {
+    margin-right: 0!important
+}
+.noMarginBottom {
+    margin-bottom: 0!important
+}
+.noMarginLeft {
+    margin-left: 0!important
+}
+.noPaddingTop {
+    padding-top: 0!important
+}
+.noPaddingRight {
+    padding-right: 0!important
+}
+.noPaddingBottom {
+    padding-bottom: 0!important
+}
+.noPaddingLeft {
+    padding-left: 0!important
+}
+.tel {
+    color: inherit!important;
+    text-decoration: none!important
+}
+a,
+button,
+input[type=button],
+input[type=submit] {
+    -moz-transition: all 350ms ease 0s;
+    -o-transition: all 350ms ease 0s;
+    -webkit-transition: all 350ms ease 0s;
+    transition: all 350ms ease 0s
+}
+a,
+nav a:hover {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+nav ol,
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+p {
+    margin: 8px 0 10px
+}
